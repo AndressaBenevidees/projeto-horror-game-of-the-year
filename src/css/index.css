@@ -64,3 +64,16 @@ a:active {
   background-color: white;
   opacity: 0.5;
   }
+
+  @media (max-width:480px) {
+    h1 {
+    font-size: 50px;
+    line-height: 76px;
+    }
+  }
+
+  @media (max-width:360px) {
+    a {
+    font-size: 17px;
+    }
+  }
